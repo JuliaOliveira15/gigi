@@ -1,63 +1,104 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <title>Aventura</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <title>Games</title>
 </head>
 <body>
     <main>
         <div class="passo ativo" id="passo-0">
-            <p>Alex encontra uma tribo local. As escolhas aqui são cruciais para o progresso da história.
-            </p>
-            <button class="btn-proximo" data-proximo="1">  Conversar com a tribo.</button>
-            <button class="btn-proximo" data-proximo="2">  Ignorar a tribo e seguir sozinho. </button>
-        </div>
-        <div class="passo ativo" id="passo-1">
-            <p>Alex tenta negociar com os habitantes locais para obter informações sobre o templo. Atribuindo-se como amigo, Alex pode conseguir ajuda e uma guia local. Alex continua sua jornada pela selva e encontra dois caminhos distintos.
-            </p>
-            <button class="btn-proximo" data-proximo="3">  Caminho seguro. </button>
-            <button class="btn-proximo" data-proximo="4"> Atalho perigoso. </button>
-        </div>
-        <div class="passo ativo" id="passo-2">
-            <p>Alex decide evitar a tribo, confiando em suas habilidades para se orientar sozinho, o que pode levar a desafios adicionais, como falta de suprimentos ou ataques de animais.      
-            </p>
-            <button class="btn-proximo" data-proximo="5"> Caminho seguro. </button>
-            <button class="btn-proximo" data-proximo="6"> Atalho perigoso. </button>
-        </div>
-        <div class="passo ativo" id="passo-3" >
-        <p> Um caminho mais largo e sinalizado, porém mais demorado, que parece evitar as principais ameaças da selva. 
-        </p>
-        </div>
-        <div class="passo ativo" id="passo-5">
-        <p> . Um caminho estreito e íngreme que promete uma chegada mais rápida ao templo, mas está cheio de armadilhas naturais e animais selvagens.
-        </p>
-        
-        
-    </div>
-    Alex encontra uma tribo local. As escolhas aqui são cruciais para o progresso da história.
+            <img scr="Onça-parda-legado-das-aguas.jpg" alt="">
+            
+            <p>Vasculhando alguns documentos guardados descobrimos segredos, e nos deparamos com tesouros guardados que estava perdido</p>
 
-    Opção A: Conversar com a tribo. Alex tenta negociar com os habitantes locais para obter informações sobre o templo. Atribuindo-se como amigo, Alex pode conseguir ajuda e uma guia local.
+           <button class="btn-proximo" data-proximo="1">Sâo Paulo</button>
+            <button calss="btn-proximo" data-proximo="2">Bahia    </button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p> Em Sâo Paulo encontramos mais pistas no Parque Vila Lobos, vá até o parque para mais descobertas</p>
+            <button class="btn-proximo" data-proximo="3">Parque Vila Lobos</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Na Bahia encontramos slguns enigmas que precisavam serem desvendados para cehgar até o próximo passo.</p>
+            <button class="btn-proximo" data-proximo="5">Buscar mais pistas no Pelourinho</button>
+            <button class="btn-proximo" data-proximo="6">Desvendar mistérios em Porto de Galinha</button>
+
+        </div>
+
+        <div class="passo" id="passo-3">
+           <p> No parque Vila Lobos encontramos pistas que nos levaram até Mato Grosso </p>
+            <button calss="btn-proximo" data-proximo="7">Mato Grosso</button>
+
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Voltar para casa não é uma opçã, prossiga até encontrar o tesouro... </p>
+            <button class="btn-proximo" data-proximo="8"</button>
+           
+        </div>
+
+        <div calss="passo" id="passo-5">
+            <p>No Pelourinho podemos visitar algumas igrejas para buscar mais pistas. </p>
+            <button class="btn-proximo" data-proximo="9">igreja 1</button>
+            <button class="btn-proximo" data-proximo="10">Igreja 2</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Desvendar os mistérios das Praias de Porto de Galinhas. </p>
+            <button class="btn-proximo" data-proximo="11">Praia 1</button>
+            <button calss="btn-proximo" data-proximo="12">Praia 2</button>
+
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No Mato grosso vamos precisar retornar para alguns locais no Porto de Galinhas. </p>
+            <button class="btn-proximo" data-proximo="11">Praia 1</button>
+            <button class="btn-ptoximo" data-proximo="12">Praia 2</button>
+
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Vamos prosseguir nossa jornada até a Bahia. </p>
+            <button class="btn-proximo" data-proximo="5">Buscar mais pistas no Pelourinho</button>
+
+
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Na primeira igreja encontramos prstas que nos levaram até as praias em Posrto de Galinhas. </p>
+             <button class="btn-proximo" data-proximo="11">Praia 1</button>
+             <button class="btn-proximo" data-proximo="12">Praia 2</button>
     
-    Opção B: Ignorar a tribo e seguir sozinho. Alex decide evitar a tribo, confiando em suas habilidades para se orientar sozinho, o que pode levar a desafios adicionais, como falta de suprimentos ou ataques de animais.
+         </div>
+
+         <div class="passo" id="passo-10">
+            <p>Na segunda igreja encontramos nosso tão sonhado tesouro!!! Parabéns você chegou ao fim dessa incrivel jornada!</p>
+         
+
+        </div>
+
+        <div class="passo" id="passo11">
+            <p>Aqui não encontramos nada.</p>
+            <button class="btn-proximo" data-proximo="12">Igreja 2</button>
+            
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Aqui não encontramos nada. E voltamos para Porto de Galinhas.</p>
+            <button class="btn-proximo" data-proximo="11">Praia 1</button>
+
+        </div>
+
+    </main>
+    <script scr="Cachoeira-dos-Ventura-1.jpg"
     
-    Capítulo 2: Escolha do Caminho
+</body>
+</html>
     
-    Alex continua sua jornada pela selva e encontra dois caminhos distintos.
-    
-    Opção A: Caminho seguro. Um caminho mais largo e sinalizado, porém mais demorado, que parece evitar as principais ameaças da selva.
-    
-    Opção B: Atalho perigoso. Um caminho estreito e íngreme que promete uma chegada mais rápida ao templo, mas está cheio de armadilhas naturais e animais selvagens.
-    
-    Capítulo 3: Uso de Recursos
-    
-    Após superar os desafios do caminho escolhido, Alex encontra uma encruzilhada onde deve decidir como lidar com o próximo obstáculo.
-    
-    Opção A: Usar uma habilidade especial. Alex possui uma habilidade especial, como uma técnica de escalada ou conhecimento de botânica, que pode ajudá-lo a superar o obstáculo (por exemplo, uma ponte instável ou uma planta venenosa).
-    
-    Opção B: Usar uma habilidade especial. Alex pode ter encontrado um item útil, como uma corda ou uma poção, que pode facilitar a passagem ou ajudar a resolver um problema específico.
-    
-    Desfecho: Dependendo das escolhas feitas ao longo da jornada, Alex pode encontrar o "Coração da Selva" com sucesso, enfrentar perigos inesperados, ou talvez descobrir algo ainda mais valioso ou revelador.
