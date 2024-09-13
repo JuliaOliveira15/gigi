@@ -1,5 +1,36 @@
 body{
-    font-family: "Unna", system-ui;
+    background-color: aquamarine;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button{
+    background-color: aqua;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.passo {
+  display: me;  
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 90%;
 }
 
 
